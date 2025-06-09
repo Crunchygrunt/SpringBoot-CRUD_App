@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RestProjectApplication",
+            "request": "launch",
+            "mainClass": "com.crudapi.RestProjectApplication",
+            "projectName": "rest-project"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RestProjectApplication<rest-project>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.crudapi.rest_project.RestProjectApplication",
+            "projectName": "rest-project",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
